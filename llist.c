@@ -4,6 +4,8 @@ list_item_t*
 list_item_new(void* data) {
     list_item_t* i = malloc(sizeof(list_item_t));
     i->data = data;
+    i->next = NULL;
+    i->prev = NULL;
     return i;
 }
 
