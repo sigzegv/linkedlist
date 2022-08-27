@@ -1,0 +1,5 @@
+.build
+.deps
+.ccls-cache
+llist_test
+libllist.*

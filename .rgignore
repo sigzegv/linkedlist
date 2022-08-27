@@ -1,0 +1,4 @@
+.rgignore
+.git
+.ccls-cache
+.ccls
