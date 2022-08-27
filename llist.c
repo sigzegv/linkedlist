@@ -122,7 +122,7 @@ list_unlist(list_item_t* elem) {
  * Completely removes a list_item from its list, and returns its data field.
  */
 void*
-list_delete(list_item_t* elem) {
+list_free(list_item_t* elem) {
     list_unlist(elem);
 
     void* data = elem->data;

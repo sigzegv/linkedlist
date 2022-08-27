@@ -17,6 +17,6 @@ list_item_t* list_insert(list_item_t*, list_item_t*);
 list_item_t* list_append(list_item_t*, list_item_t*);
 list_item_t* list_prepend(list_item_t*, list_item_t*);
 void list_unlist(list_item_t*);
-void* list_delete(list_item_t*);
+void* list_free(list_item_t*);
 
 #endif
