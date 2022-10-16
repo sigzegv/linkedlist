@@ -66,7 +66,7 @@ list_insert(list_item_t* member, list_item_t* elem) {
         elem->next = member;
         member->prev = elem;
 
-        if (NULL != elem->prev->next) {
+        if (NULL != elem->prev && NULL != elem->prev->next) {
             elem->prev->next = elem;
         }
     }
